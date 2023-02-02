@@ -10,6 +10,7 @@ import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationCompat.PRIORITY_MIN
+import com.sgvdev.autostart.ui.activity.MainActivity
 
 
 class MyService : Service() {

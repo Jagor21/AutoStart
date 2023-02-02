@@ -56,38 +56,6 @@
             app:layout_constraintStart_toEndOf="@id/et_lock_hour"
             app:layout_constraintTop_toBottomOf="@id/iv_close" />
 
-        <EditText
-            android:id="@+id/et_unlock_hour"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="8dp"
-            android:background="@color/white"
-            android:hint="Unlock hours"
-            android:paddingStart="8dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
-            android:textColorHint="@color/black"
-            app:layout_constraintEnd_toStartOf="@id/et_unlock_minute"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/et_lock_hour" />
-
-        <EditText
-            android:id="@+id/et_unlock_minute"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="30dp"
-            android:background="@color/white"
-            android:hint="Unlock minutes"
-            android:paddingStart="8dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
-            android:textColorHint="@color/black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/et_unlock_hour"
-            app:layout_constraintTop_toBottomOf="@id/et_lock_minute" />
-
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/set_alarms"
@@ -104,7 +72,7 @@
             app:cornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/et_unlock_minute" />
+            app:layout_constraintTop_toBottomOf="@id/et_lock_minute" />
 
         <EditText
             android:id="@+id/et_url"

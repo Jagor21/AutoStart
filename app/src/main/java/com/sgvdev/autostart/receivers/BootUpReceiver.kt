@@ -1,9 +1,10 @@
-package com.sgvdev.autostart
+package com.sgvdev.autostart.receivers
 
 import android.content.*
 import android.os.Build
 import android.util.Log
-import androidx.core.content.ContextCompat.startActivity
+import com.sgvdev.autostart.LogWriter
+import com.sgvdev.autostart.MyService
 
 class BootUpReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
@@ -14,7 +15,12 @@ class BootUpReceiver : BroadcastReceiver() {
 //        context?.startService(Intent(context, MyService::class.java))
 
         val i = Intent(context, MyService::class.java)
-        context?.let { LogWriter.log(it, "BootUpReceiver: Starting MyService\nIntent action: ${intent?.action}") }
+        context?.let {
+            LogWriter.log(
+                it,
+                "BootUpReceiver: Starting MyService\nIntent action: ${intent?.action}"
+            )
+        }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             context?.startForegroundService(i)
         } else {

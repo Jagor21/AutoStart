@@ -2,6 +2,7 @@ package com.sgvdev.autostart
 
 import android.content.Context
 import android.os.PowerManager
+import com.sgvdev.autostart.ui.activity.MainActivity
 
 class WakeLocker {
 

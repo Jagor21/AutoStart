@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1021038313196",
+    "project_id": "autostart-98e76",
+    "storage_bucket": "autostart-98e76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021038313196:android:3a552d910efef9f9e5efc9",
+        "android_client_info": {
+          "package_name": "com.sgvdev.autostart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021038313196-0j0667si80gjnv6fh22ucr708ks0s31l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeyjGzlEDtBWozeHSlv09EIN0dgUNQP5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021038313196-0j0667si80gjnv6fh22ucr708ks0s31l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
